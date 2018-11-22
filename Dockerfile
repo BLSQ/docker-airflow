@@ -15,7 +15,7 @@ ENV LOAD_EX=n
 ARG AIRFLOW_VERSION=1.10.0
 ARG AIRFLOW_HOME=/usr/local/airflow
 ARG AIRFLOW_DEPS="postgres,s3"
-ARG PYTHON_DEPS=""
+ARG PYTHON_DEPS="flask_oauthlib>=0.9"
 ENV AIRFLOW_GPL_UNIDECODE yes
 
 # Define en_US.
